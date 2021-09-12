@@ -1,0 +1,103 @@
+<style>
+* {
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+header {
+  padding: 10px;
+  border-top: 30px;
+  width: 100%;
+  height: 3%;
+  right: 0px;
+  position: absolute;
+  color: #4A4969;
+  z-index: 1000;
+  background-color: #C9ADA7;
+  border-bottom: 3px solid #22223B;
+  background-origin: content-box;
+}
+
+body {
+  background-color: #22223B;
+  padding : 5px ;
+  margin : 3px;
+  overflow-y: scroll;
+}
+@font-face { font-family: DMMono; src: url('./fonts/DMMono-Medium.ttf'); }
+@font-face {font-family: JetBrainsMonoNL-Bold; src: url('/Users/karlpierce/workspace/website/fonts/JB_webfonts/JetBrainsMono-Medium.woff2')}
+@font-face {font-family: JetBrainsMonoNL-ExtraBold; src:  url('/Users/karlpierce/workspace/website/JB_webfonts/JetBrainsMono-ExtraBold.woff2')}
+
+  /* Split the screen in half */
+  .split {
+    height: 40%;
+    width: 50%;
+    position: fixed;
+    z-index: auto;
+    top: 40;
+    overflow-x: hidden;
+  }
+
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #FFFFFF;
+  }
+
+  /* Control the right side */
+  .right {
+    right: 0;
+
+  }
+
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .link_box{
+    padding:  9px;
+    z-index: auto;
+    max-width: 200px;
+    max-height: 40px;
+    z-index: auto;
+  }
+  a{
+    z-index: auto;
+    color:  #4A4969;
+    font-family: JetBrainsMonoNL-Bold;
+    font-size: 20px;
+  }
+
+  a:hover{
+    border-radius: 5px;
+    border:  2px solid #9A8C98;
+    padding:  9px;
+    z-index: auto;
+    color:  #4A4969;
+    font-family: JetBrainsMonoNL-Bold;
+  }
+  .biobox {
+    border-radius: 25px;
+    background-color: #F2E9E4;
+    text-align: center;
+    font-family : JetBrainsMonoNL-Bold;
+    font-size : 20px;
+    padding: 10px;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 30px;
+    overflow-y: scroll;
+  }
+  
+</style>
