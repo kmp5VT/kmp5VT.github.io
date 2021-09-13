@@ -10,7 +10,7 @@ header {
   width: 100%;
   height: 3%;
   right: 0px;
-  position: absolute;
+  position: relative;
   color: #4A4969;
   z-index: 1000;
   background-color: #C9ADA7;
@@ -22,31 +22,33 @@ body {
   background-color: #22223B;
   padding : 5px ;
   margin : 3px;
-  overflow-y: scroll;
+  color : 4A4E69
 }
 @font-face { font-family: DMMono; src: url('./fonts/DMMono-Medium.ttf'); }
 @font-face {font-family: JetBrainsMonoNL-Bold; src: url('/Users/karlpierce/workspace/website/fonts/JB_webfonts/JetBrainsMono-Medium.woff2')}
 @font-face {font-family: JetBrainsMonoNL-ExtraBold; src:  url('/Users/karlpierce/workspace/website/JB_webfonts/JetBrainsMono-ExtraBold.woff2')}
 
   /* Split the screen in half */
-  .split {
-    height: 40%;
+
+  /* Control the left side */
+  .left_half {
+    float: left;
+    background-color: #FFFFFF;
+    height: 100%;
     width: 50%;
-    position: fixed;
     z-index: auto;
-    top: 40;
+    top: 5px;
     overflow-x: hidden;
   }
 
-  /* Control the left side */
-  .left {
-    left: 0;
-    background-color: #FFFFFF;
-  }
-
   /* Control the right side */
-  .right {
-    right: 0;
+  .right_half {
+    left: 55%;
+    height: 100%;
+    width: 50%;
+    z-index: auto;
+    top: 5px;
+    overflow-x: hidden;
 
   }
 
@@ -71,6 +73,7 @@ body {
     max-width: 200px;
     max-height: 40px;
     z-index: auto;
+    display: inline-block;
   }
   a{
     z-index: auto;
@@ -90,14 +93,31 @@ body {
   .biobox {
     border-radius: 25px;
     background-color: #F2E9E4;
-    text-align: center;
+    text-align: left;
     font-family : JetBrainsMonoNL-Bold;
     font-size : 20px;
     padding: 10px;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 500px;
     padding: 30px;
-    overflow-y: scroll;
+    overflow-x: scroll;
   }
-  
+
+  .title{
+    text-align: center;
+    transform: translate(0%, 50%);
+  }
+
+  .footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: -50px;
+  }
+
+  footer.ul{
+    display: inline-block;
+  }
+
 </style>
