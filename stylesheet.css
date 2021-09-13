@@ -2,6 +2,8 @@
 * {
   box-sizing: border-box;
   border-radius: 25px;
+  overflow : hidden;
+  resize: both;
 }
 
 header {
@@ -16,13 +18,15 @@ header {
   background-color: #C9ADA7;
   border-bottom: 3px solid #22223B;
   background-origin: content-box;
+  resize: both;
 }
 
 body {
   background-color: #22223B;
   padding : 5px ;
   margin : 3px;
-  color : 4A4E69
+  color : 4A4E69;
+  resize: both;
 }
 @font-face { font-family: DMMono; src: url('./fonts/DMMono-Medium.ttf'); }
 @font-face {font-family: JetBrainsMonoNL-Bold; src: url('/Users/karlpierce/workspace/website/fonts/JB_webfonts/JetBrainsMono-Medium.woff2')}
@@ -100,12 +104,12 @@ body {
     max-width: 500px;
     max-height: 500px;
     padding: 30px;
-    overflow-x: scroll;
   }
 
-  .title{
+  left_half.h1{
     text-align: center;
     transform: translate(0%, 50%);
+
   }
 
   .footer {
@@ -118,6 +122,14 @@ body {
 
   footer.ul{
     display: inline-block;
+  }
+
+  .iframe-class{
+    frameborder: '0';
+    height: 110%;
+    width: 100% ;
+    scrolling: "no";
+    overflow: hidden;
   }
 
 </style>
