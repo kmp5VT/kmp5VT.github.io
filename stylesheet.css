@@ -1,4 +1,20 @@
 <style>
+
+html, body{
+  margin: 0px; 
+  padding:0px;}
+body{
+  background-color: #22223B;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+@font-face { font-family: DMMono; src: url('./fonts/DMMono-Medium.ttf'); }
+@font-face {font-family: JetBrainsMonoNL-Bold; src: url('/Users/karlpierce/workspace/website/fonts/JB_webfonts/JetBrainsMono-Medium.woff2')}
+@font-face {font-family: JetBrainsMonoNL-ExtraBold; src:  url('/Users/karlpierce/workspace/website/JB_webfonts/JetBrainsMono-ExtraBold.woff2')}
+
 * {
   box-sizing: border-box;
   border-radius: 25px;
@@ -11,8 +27,7 @@ header {
   border-top: 30px;
   width: 100%;
   height: 3%;
-  right: 0px;
-  position: relative;
+  transform: translate(0%, 50%);
   color: #4A4969;
   z-index: 1000;
   background-color: #C9ADA7;
@@ -20,41 +35,47 @@ header {
   background-origin: content-box;
   resize: both;
 }
+.link_box{
+    padding:  9px;
+    z-index: auto;
+    max-width: 200px;
+    max-height: 40px;
+    z-index: auto;
+    display: inline-block;
+  }
 
-body {
-  background-color: #22223B;
-  padding : 5px ;
-  margin : 3px;
-  color : 4A4E69;
-  resize: both;
+
+.title{
+  text-align: center;
+  transform: translate(0%, 20%);
+  font-family: DMMono;
+  font-size: 3vw;
+  overflow-x: hidden
+  resize:  auto;
 }
-@font-face { font-family: DMMono; src: url('./fonts/DMMono-Medium.ttf'); }
-@font-face {font-family: JetBrainsMonoNL-Bold; src: url('/Users/karlpierce/workspace/website/fonts/JB_webfonts/JetBrainsMono-Medium.woff2')}
-@font-face {font-family: JetBrainsMonoNL-ExtraBold; src:  url('/Users/karlpierce/workspace/website/JB_webfonts/JetBrainsMono-ExtraBold.woff2')}
 
   /* Split the screen in half */
 
-  /* Control the left side */
-  .left_half {
-    float: left;
-    background-color: #FFFFFF;
-    height: 100%;
-    width: 50%;
-    z-index: auto;
-    top: 5px;
-    overflow-x: hidden;
-  }
+    /* Control the left side */
+    .left_half {
+      float: left;
+      background-color: #FFFFFF;
+      height: 100%;
+      width: 50%;
+      z-index: auto;
+      top: 5px;
+    }
 
-  /* Control the right side */
-  .right_half {
-    left: 55%;
-    height: 100%;
-    width: 50%;
-    z-index: auto;
-    top: 5px;
-    overflow-x: hidden;
+     Control the right side 
+    .right_half {
+      left: 55%;
+      height: 100%;
+      width: 50%;
+      z-index: auto;
+      top: 5px;
+      overflow-x: hidden;
 
-  }
+    }
 
   /* If you want the content centered horizontally and vertically */
   .centered {
@@ -71,14 +92,6 @@ body {
     border-radius: 50%;
   }
   
-  .link_box{
-    padding:  9px;
-    z-index: auto;
-    max-width: 200px;
-    max-height: 40px;
-    z-index: auto;
-    display: inline-block;
-  }
   a{
     z-index: auto;
     color:  #4A4969;
@@ -104,12 +117,6 @@ body {
     max-width: 500px;
     max-height: 500px;
     padding: 30px;
-  }
-
-  left_half.h1{
-    text-align: center;
-    transform: translate(0%, 50%);
-
   }
 
   .footer {
