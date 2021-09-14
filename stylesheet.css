@@ -106,10 +106,9 @@ body {
     padding: 30px;
   }
 
-  left_half.h1{
+  .title{
     text-align: center;
     transform: translate(0%, 50%);
-
   }
 
   .footer {
