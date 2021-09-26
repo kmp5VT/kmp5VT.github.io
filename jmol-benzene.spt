@@ -34,7 +34,6 @@ function _setFileState() {
   set defaultStructureDssp true;
   set defaultVDW Auto;
   set forceAutoBond false;
-  #set defaultDirectory "/Users/karlpierce/workspace/website";
   #set loadFormat "https://files.rcsb.org/download/%FILE.pdb";
   #set loadLigandFormat "https://files.rcsb.org/ligands/download/%FILE.cif";
   #set smilesUrlFormat "https://cactus.nci.nih.gov/chemical/structure/%FILE/file?format=sdf&get3d=true";
@@ -55,7 +54,7 @@ function _setFileState() {
   set percentVdwAtom 23;
   set smallMoleculeMaxAtoms 40000;
   set smartAromatic true;
-  load /*file*/"file:https://raw.githubusercontent.com/kmp5VT/kmp5VT.github.io/master/4138_1_2-ccsd-ri-obs-cc-pVDZ-F12-dfbs-aug-cc-pVDZ-RI-rank-1.0-bs-5.0-hbs-200-tcutcp-1e-3-nodes-1-build-cp-molden_CP.molden";
+  load /*file*/"file:https://raw.githubusercontent.com/kmp5VT/kmp5VT.github.io/master/4138_1_2-ccsd-ri-obs-cc-pVDZ-F12-dfbs-aug-cc-pVDZ-RI-rank-1.0-bs-5.0-hbs-200-tcutcp-1e-3-nodes-1-build-cp-molden_CP.molden.gz";
 
 }
 
