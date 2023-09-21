@@ -4,9 +4,27 @@
 <head>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <title >Karl Pierce</title>
-  <script crossorigin src="https://unpkg.com/wolfram-notebook-embedder@0.1/dist/wolfram-notebook-embedder.min.js"></script>
-  <script type="divs_appear.js"></script>
-  <script src="jquery.js"></script> 
+  <div style="color:white">
+    <div class="link_box">
+      <a style="color: white;" href="https://twitter.com/karl_pierce1">Twitter</a>
+    </div>
+    \ 
+    <div class="link_box">
+      <a style="color: white;" href="https://www.linkedin.com/in/karl-pierce">LinkedIn</a>
+    </div>
+    \ 
+    <div class=link_box>
+      <a style="color: white;" href="https://github.com/kmp5VT">Github</a>
+    </div>
+    \ 
+    <div class=link_box>
+      <a style="color: white;" href="mailto: karl.m.pierce@gmail.com">Contact</a>
+    </div>
+    \ 
+    <div class=link_box>
+      <a style="color: white;" href="./karlpierce_cv.pdf">CV</a>
+    </div>
+  </div>
 </head>
 
 <body>
@@ -17,40 +35,33 @@
   position: relative;
   z-index: auto;
   transform: translate(0%, -15%);
-  color: #c9ada7; 
-  -webkit-text-stroke: 0.1vw black;
+  color: #00000f; 
+  -webkit-text-stroke: 0.15vw black;
   overflow: visible;
-  font-size: 5vw;
-  z-index: 10000;"> Karl Pierce</div>
+  font-size: 3vw;
+  z-index: 1000;">Karl Pierce</div>
 </header>
 
 <!-- Heading of the page-->
-<div style="position: relative; top: 30px; height: 400px;z-index: 0;">
-    <!-- <div class="title">
-      Programmer Spotlight: <br> Karl Pierce
-    </div> -->
-      <!--
-    <p style="position:relative; top: 70px; text-align: center; font-family: DMMono">
-      
-    </p>
-    --->
-    <iframe class="iframe-class" src='https://www.wolframcloud.com/obj/kmp5/myform'>
-    </iframe>
-
+<div style="position: relative; top: 50px; height: 400px;z-index: 0;">
+  <link include="jmol/benzene-jmol/benzene-jmol.html"></link>
 </div>
 
 <div id=bio style="position: relative; top: 50px;margin: 30px;">
-  <h1 class=centered style="position:relative; top: 00px; color: #c9ada7; -webkit-text-stroke: 0.1vw black; font-size: 4vw; z-index: 10000;">
+  <h1 class=centered style="position:relative; top: 00px; color: #c9ada7; -webkit-text-stroke: 0.1vw black; font-size: 3vw; z-index: 10000;">
     Biography
   </h1>
 
   <div class="biobox" style="width: 100%; transform: translate(0%, -10%);">
       <center>
-      I am a theoretical chemists with a strong background in advanced tensor algebra, quantum mechanics, electronic stucture theory and optimized high performance computer modeling
+      I am a theoretical chemist with a strong background in advanced tensor algebra, 
+      quantum mechanics, electronic stucture theory and optimized high performance computer modeling
       </center>
   <br><br>
       <center>
-        My career goals are to find robust applications of novel mathematics and to create tools to solve complex problems using high performance computing.
+        My career goals are to find robust applications of novel mathematics 
+        and to create tools to solve complex problems using high performance, 
+        heterogenous computer architectures and novel dis algorithms.
       </center>
   <br><br>
     I am interested in:
@@ -63,17 +74,29 @@
 </div>
 
 <div id=recent style="position: relative; top:0px;display: block; margin: 30px">
-  <h1 class=centered style="position:relative; top: 0px; color: #c9ada7; -webkit-text-stroke: 1px black; font-size: 4vw; "> Recent work</h1>
-  <div style="width: 100%; transform: translate(0%, -10%);text-align: center;">
-    <a href="./first-paper.pdf">
-      <img src="./Paper1.png" alt="Front material for Robust Approximation of Tensor Networks: Application to Grid-Free Tensor Factorization of the Coulomb Interaction" style="width: 60%; overflow:hidden; transform: translate(0%, 0%);" >
-    </a>
-  </div>
-  <div class="biobox" style="width: 100%; transform: translate(0%, -10%);">
-    <p>
-      Introduction of the canonical polyadic (CP) decomposition to approximate tensor networks in electronic structure methods can a significant effect on the accuracy of the methods. Using the mathematical idea of a taylor expansion, we can find a "robust" formulation of these approximated tensor networks and significnatly reduce the cost of electronic structure theory methods.
-    </p>
-  </div>
+  <h1 class=centered style="position:relative; top: 0px; color: #c9ada7; -webkit-text-stroke: 1px black; font-size: 3vw; width: 70%;"> Recent work</h1>
+    <div style="width: 50%; transform: translate(50%, -10%);text-align: center;">
+      <a href="./first-paper.pdf">
+        <img src="./Paper1.png" alt="Front material for Robust Approximation of Tensor Networks: Application to Grid-Free Tensor Factorization of the Coulomb Interaction" style="width: 60%; overflow:hidden; transform: translate(0%, 0%);" >
+      </a>
+    </div>
+    <div class="biobox" style="width: 70%; transform: translate(20%, -10%);text-align: left;">
+      <p style="font-size: 70%;">
+        Introduction of the canonical polyadic (CP) decomposition to approximate tensor networks in electronic structure methods can a significant effect on the accuracy of the methods. Using the mathematical idea of a taylor expansion, we can find a "robust" formulation of these approximated tensor networks and significnatly reduce the cost of electronic structure theory methods.
+      </p>
+    </div>
+  <!-- <td>
+    <div style="width: 50%; transform: translate(0%, 0%);text-align: center;">
+      <a href="./first-paper.pdf">
+        <img src="./Paper1.png" alt="Front material for Robust Approximation of Tensor Networks: Application to Grid-Free Tensor Factorization of the Coulomb Interaction" style="width: 60%; overflow:hidden; transform: translate(0%, 0%);" >
+      </a>
+    </div>
+    <div class="biobox" style="width: 40%; transform: translate(0%, 0%);text-align: left;">
+      <p style="font-size: 20pt;">
+        Introduction of the canonical polyadic (CP) decomposition to approximate tensor networks in electronic structure methods can a significant effect on the accuracy of the methods. Using the mathematical idea of a taylor expansion, we can find a "robust" formulation of these approximated tensor networks and significnatly reduce the cost of electronic structure theory methods.
+      </p>
+    </div>
+  </td> -->
   
   <div id="includedContent">
 
@@ -86,7 +109,7 @@
   </div>
   \ 
   <div class="link_box">
-    <a href="https://www.linkedin.com/in/karl-pierce-29a0718a/">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/karl-pierce">LinkedIn</a>
   </div>
   \ 
   <div class=link_box>
@@ -98,7 +121,7 @@
   </div>
   \ 
   <div class=link_box>
-    <a href="./CV.pdf">CV</a>
+    <a href="./karlpierce_cv.pdf">CV</a>
   </div>
 </div>
 
