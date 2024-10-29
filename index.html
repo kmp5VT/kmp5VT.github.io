@@ -8,21 +8,21 @@
     <div class="link_box">
       <a style="color: white;" href="https://twitter.com/karl_pierce1">Twitter</a>
     </div>
-    \ 
+     
     <div class="link_box">
       <a style="color: white;" href="https://www.linkedin.com/in/karl-pierce">LinkedIn</a>
     </div>
-    \ 
+     
     <div class=link_box>
       <a style="color: white;" href="https://github.com/kmp5VT">Github</a>
     </div>
-    \ 
+     
     <div class=link_box>
       <a style="color: white;" href="mailto: karl.m.pierce@gmail.com">Contact</a>
     </div>
-    \ 
+     
     <div class=link_box>
-      <a style="color: white;" href="./karlpierce_cv.pdf">CV</a>
+      <a style="color: white;" href="./papers/karlpierce_cv.pdf">CV</a>
     </div>
   </div>
 </head>
@@ -35,27 +35,30 @@
   position: relative;
   z-index: auto;
   transform: translate(0%, -15%);
-  color: #00000f; 
-  -webkit-text-stroke: 0.15vw black;
+  color: #ece2df; 
+  -webkit-text-stroke: 0.15vw #000000;
   overflow: visible;
-  font-size: 3vw;
+  font-size: 4vw;
   z-index: 1000;">Karl Pierce</div>
 </header>
 
 <!-- Heading of the page-->
-<div style="position: relative; top: 50px; height: 400px;z-index: 0;">
-  <link include="jmol/benzene-jmol/benzene-jmol.html"></link>
+<div style="position: relative; top: 50px; height: 400px;z-index: 0;margin: 30px;transform: translate(20%, 0%)">
+  <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
+  <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>     
+ 
+  <div style="height: 400px; width: 900px; position: relative;" class='viewer_3Dmoljs' data-href='4138_1_2-ccsd-ri-obs-cc-pVDZ-F12-dfbs-aug-cc-pVDZ-RI-rank-1.0-bs-5.0-hbs-200-tcutcp-1e-3-nodes-1-build-cp-molden_CP.molden' data-style='stick' data-ui='false'></div>
 </div>
 
-<div id=bio style="position: relative; top: 50px;margin: 30px;">
-  <h1 class=centered style="position:relative; top: 00px; color: #c9ada7; -webkit-text-stroke: 0.1vw black; font-size: 3vw; z-index: 10000;">
+<div id=bio style="position: relative; top: 50px;margin: 10px;">
+  <h1 class=centered style="position:relative; top: 0px; color: #ece2df; -webkit-text-stroke: 1px rgb(255, 255, 255); font-size: 3vw; width: 70%;">
     Biography
   </h1>
 
   <div class="biobox" style="width: 100%; transform: translate(0%, -10%);">
       <center>
-      I am a theoretical chemist with a strong background in advanced tensor algebra, 
-      quantum mechanics, electronic stucture theory and optimized high performance computer modeling
+      I am a theoretical chemist and applied mathematician with a strong background in advanced tensor algebra, 
+      quantum mechanics, electronic stucture theory and optimized high performance computer modeling.
       </center>
   <br><br>
       <center>
@@ -74,10 +77,10 @@
 </div>
 
 <div id=recent style="position: relative; top:0px;display: block; margin: 30px">
-  <h1 class=centered style="position:relative; top: 0px; color: #c9ada7; -webkit-text-stroke: 1px black; font-size: 3vw; width: 70%;"> Recent work</h1>
-    <div style="width: 50%; transform: translate(50%, -10%);text-align: center;">
-      <a href="./first-paper.pdf">
-        <img src="./Paper1.png" alt="Front material for Robust Approximation of Tensor Networks: Application to Grid-Free Tensor Factorization of the Coulomb Interaction" style="width: 60%; overflow:hidden; transform: translate(0%, 0%);" >
+  <h1 class=centered style="position:relative; top: 0px; color: #ece2df; -webkit-text-stroke: 1px rgb(255, 255, 255); font-size: 3vw; width: 70%;"> Recent work</h1>
+    <div style="width: 100%; transform: translate(0%, -10%);text-align: center;">
+      <a href="./papers/pierce_2022-acs.jctc.2c00861.pdf">
+        <img src="./images/paper2.png" alt="Front material for Robust Approximation of Tensor Networks: Application to Grid-Free Tensor Factorization of the Coulomb Interaction" style="width: 40%; overflow:hidden; transform: translate(0%, 0%);" >
       </a>
     </div>
     <div class="biobox" style="width: 70%; transform: translate(20%, -10%);text-align: left;">
@@ -85,18 +88,16 @@
         Introduction of the canonical polyadic (CP) decomposition to approximate tensor networks in electronic structure methods can a significant effect on the accuracy of the methods. Using the mathematical idea of a taylor expansion, we can find a "robust" formulation of these approximated tensor networks and significnatly reduce the cost of electronic structure theory methods.
       </p>
     </div>
-  <!-- <td>
-    <div style="width: 50%; transform: translate(0%, 0%);text-align: center;">
-      <a href="./first-paper.pdf">
-        <img src="./Paper1.png" alt="Front material for Robust Approximation of Tensor Networks: Application to Grid-Free Tensor Factorization of the Coulomb Interaction" style="width: 60%; overflow:hidden; transform: translate(0%, 0%);" >
+    <div style="width: 100%; transform: translate(0%, 0%);text-align: center;">
+      <a href="./papers/first-paper.pdf">
+        <img src="./images/Paper1.png" alt="Front material for Robust Approximation of Tensor Networks: Application to Grid-Free Tensor Factorization of the Coulomb Interaction" style="width: 40%; overflow:hidden; transform: translate(0%, 0%);" >
       </a>
     </div>
-    <div class="biobox" style="width: 40%; transform: translate(0%, 0%);text-align: left;">
-      <p style="font-size: 20pt;">
+    <div class="biobox" style="width: 70%; transform: translate(20%, 0%);text-align: left;">
+      <p style="font-size: 70%;">
         Introduction of the canonical polyadic (CP) decomposition to approximate tensor networks in electronic structure methods can a significant effect on the accuracy of the methods. Using the mathematical idea of a taylor expansion, we can find a "robust" formulation of these approximated tensor networks and significnatly reduce the cost of electronic structure theory methods.
       </p>
     </div>
-  </td> -->
   
   <div id="includedContent">
 
