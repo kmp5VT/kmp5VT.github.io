@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <title >Karl Pierce</title>
-  <div style="color:white">
+  <div style="color:white; float: inline-start;z-index: 1000000;">
     <div class="link_box">
       <a style="color: white;" href="https://twitter.com/karl_pierce1">Twitter</a>
     </div>
@@ -36,14 +36,36 @@
     transform: translate(0%, 0%);
     color: #000000; 
     -webkit-text-stroke: 0.15vw #000000;
-    overflow: visible;
+    overflow: hidden;
     text-align: center;
     font-size: 4vw;">Karl Pierce</div>
     </div>
 <!-- Links to my socials-->
 <header>
-  <div style="width: 100%; top: 0px;display: inline-block;position:relative;ntext-align: center;">
-    <img src="./images/Pierce_Karl.jpg" alt="Headshot" style="width: 35%; overflow:hidden; position: relative;" >
+  <div style="width: 50%; transform: translate(0%, 0%);color: #ffffff;display: inline-grid;/* text-align: left; */justify-items: center; float: left;position: relative;overflow: visible;font-size: 1.2vw;">
+    <br>
+    <center>
+    I am a theoretical chemist and applied mathematician with a strong background in advanced tensor algebra, 
+    quantum mechanics, electronic stucture theory and optimized high performance computer modeling.
+    </center>
+    <br>
+    <center>
+      My career goals are to find robust applications of modern mathematics 
+      and to create tools to solve complex problems using high performance, 
+      heterogenous computer architectures and novel algorithms.
+    </center>
+    <br>
+      I am interested in:
+      <li>Quantum mechanics and electronic structure theory.</li>
+      <li>Higher order tensor albegra and machine learning.</li>
+      <li>Solving multilinear and partial differential equations.</li>
+      <li>High performance computing architectures</li>
+      <li>Heterogenous computing algorithms</li>
+    <br>
+    Outside of science, you can find me riding my bike or baking sourdough. You might also find me hanging upside-down, I am a pole vaulter and have also coached young athletes in the sport.
+  </div>
+  <div style="width: 50%; top: 0px;position:relative;float:left;transform: translate(0%, 0%)">
+    <img src="./images/Pierce_Karl.jpg" alt="Headshot" style="width: 90%; overflow:hidden; position: relative;transform: translate(0%, 0%)" >
 </header>
 
 <!-- Heading of the page-->
@@ -51,35 +73,8 @@
   
 </div> -->
 
-<div id=bio style="position: relative; top: -10px;margin: 10px;">
-  <h1 class=centered style="position:relative; top: 0px; color: #000000; -webkit-text-stroke: 1px rgb(0, 0, 0); font-size: 3vw; width: 70%;">
-    Biography
-  </h1>
 
-  <div class="biobox" style="width: 100%; transform: translate(0%, -10%);border-bottom: 3px solid #22223B; color: #ffffff">
-      <center>
-      I am a theoretical chemist and applied mathematician with a strong background in advanced tensor algebra, 
-      quantum mechanics, electronic stucture theory and optimized high performance computer modeling.
-      </center>
-  <br><br>
-      <center>
-        My career goals are to find robust applications of modern mathematics 
-        and to create tools to solve complex problems using high performance, 
-        heterogenous computer architectures and novel algorithms.
-      </center>
-  <br><br>
-    I am interested in:
-    <li>Quantum mechanics and electronic structure theory.</li>
-    <li>Higher order tensor albegra and machine learning.</li>
-    <li>Solving multilinear and partial differential equations.</li>
-    <li>High performance computing architectures</li>
-    <li>Heterogenous computing algorithms</li>
-  <br><br>
-  Outside of 
-  </div>
-</div>
-
-<div id=recent style="position: relative; top:-50px;display: block; margin: 30px">
+<div id=recent style="position: relative; top:-30px;display: block; margin: 30px">
   <h1 class=centered style="position:relative; top: 0px; color: #000000; -webkit-text-stroke: 1px rgb(0, 0, 0); font-size: 3vw; width: 70%;"> Recent work</h1>
     <div style="width: 100%; transform: translate(0%, 0%);text-align: center;">
         <img src="./images/paper3.png" alt="Front material for Towards Using Matrix-Free Tensor Decomposition to Systematically Improve Approximate Tensor-Networks." style="width: 40%; overflow:hidden; transform: translate(0%, 0%);" >
