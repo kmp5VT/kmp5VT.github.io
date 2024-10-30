@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /papers/
+Disallow: /images/
+
+Sitemap: https://kmp5vt.github.io/
