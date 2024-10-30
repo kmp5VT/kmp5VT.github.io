@@ -28,61 +28,64 @@
 </head>
 
 <body>
+  <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
+    <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>     
+    <div style="
+    z-index: auto;
+    position: relative;
+    transform: translate(0%, 0%);
+    color: #000000; 
+    -webkit-text-stroke: 0.15vw #000000;
+    overflow: visible;
+    text-align: center;
+    font-size: 4vw;">Karl Pierce</div>
+    </div>
 <!-- Links to my socials-->
 <header>
-<div style="
-  display: inline-block;
-  position: relative;
-  z-index: auto;
-  transform: translate(0%, -15%);
-  color: #000000; 
-  -webkit-text-stroke: 0.15vw #000000;
-  overflow: visible;
-  font-size: 4vw;
-  z-index: 1000;">Karl Pierce</div>
+  <div style="width: 100%; top: 0px;display: inline-block;position:relative;ntext-align: center;">
+    <img src="./images/Pierce_Karl.jpg" alt="Headshot" style="width: 35%; overflow:hidden; position: relative;" >
 </header>
 
 <!-- Heading of the page-->
-<div style="position: relative; top: 50px; height: 400px;z-index: 0;margin: 30px;transform: translate(20%, 0%)">
-  <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
-  <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>     
- 
-  <div style="height: 400px; width: 900px; position: relative;" class='viewer_3Dmoljs' data-href='4138_1_2-ccsd-ri-obs-cc-pVDZ-F12-dfbs-aug-cc-pVDZ-RI-rank-1.0-bs-5.0-hbs-200-tcutcp-1e-3-nodes-1-build-cp-molden_CP.molden' data-style='stick' data-ui='false'></div>
-</div>
+<!-- <div style="position: relative; top: 50px; height: 400px;z-index: 0;margin: 30px;transform: translate(20%, 0%)">
+  
+</div> -->
 
-<div id=bio style="position: relative; top: 50px;margin: 10px;">
+<div id=bio style="position: relative; top: -10px;margin: 10px;">
   <h1 class=centered style="position:relative; top: 0px; color: #000000; -webkit-text-stroke: 1px rgb(0, 0, 0); font-size: 3vw; width: 70%;">
     Biography
   </h1>
 
-  <div class="biobox" style="width: 100%; transform: translate(0%, -10%);border-bottom: 3px solid #22223B;">
+  <div class="biobox" style="width: 100%; transform: translate(0%, -10%);border-bottom: 3px solid #22223B; color: #ffffff">
       <center>
       I am a theoretical chemist and applied mathematician with a strong background in advanced tensor algebra, 
       quantum mechanics, electronic stucture theory and optimized high performance computer modeling.
       </center>
   <br><br>
       <center>
-        My career goals are to find robust applications of novel mathematics 
+        My career goals are to find robust applications of modern mathematics 
         and to create tools to solve complex problems using high performance, 
-        heterogenous computer architectures and novel dis algorithms.
+        heterogenous computer architectures and novel algorithms.
       </center>
   <br><br>
     I am interested in:
     <li>Quantum mechanics and electronic structure theory.</li>
     <li>Higher order tensor albegra and machine learning.</li>
     <li>Solving multilinear and partial differential equations.</li>
-    <li>High performance parallel computer modeling</li>
-    <li>Efficient algorithm development on heterogenous computer systems</li>
+    <li>High performance computing architectures</li>
+    <li>Heterogenous computing algorithms</li>
+  <br><br>
+  Outside of 
   </div>
 </div>
 
-<div id=recent style="position: relative; top:0px;display: block; margin: 30px">
+<div id=recent style="position: relative; top:-50px;display: block; margin: 30px">
   <h1 class=centered style="position:relative; top: 0px; color: #000000; -webkit-text-stroke: 1px rgb(0, 0, 0); font-size: 3vw; width: 70%;"> Recent work</h1>
     <div style="width: 100%; transform: translate(0%, 0%);text-align: center;">
         <img src="./images/paper3.png" alt="Front material for Towards Using Matrix-Free Tensor Decomposition to Systematically Improve Approximate Tensor-Networks." style="width: 40%; overflow:hidden; transform: translate(0%, 0%);" >
       </a>
       <a href="./papers/CP4_PPL_talk_july_2024.pdf">
-        <img src="./images/talk_july.png" alt="Front material for EMC2 talk in July" style="width: 48%; overflow:hidden; transform: translate(0%, 0%);" >
+        <img src="./images/talk_july.png" alt="Front material for EMC2 talk in July" style="width: 48%; overflow:hidden; transform: translate(0%, -20%);" >
       </a>
     </div>
     <div style="width: 100%; transform: translate(0%, 0%);text-align: center;">
@@ -93,24 +96,30 @@
         <img src="./images/Paper1.png" alt="Front material for Robust Approximation of Tensor Networks: Application to Grid-Free Tensor Factorization of the Coulomb Interaction" style="width: 48%; overflow:hidden; transform: translate(0%, 0%);" >
       </a>
     </div>
-    <!-- <div class="biobox" style="width: 70%; transform: translate(20%, -10%);text-align: left;">
-      <p style="font-size: 70%;">
-        Introduction of the canonical polyadic (CP) decomposition to approximate tensor networks in electronic structure methods can a significant effect on the accuracy of the methods. Using the mathematical idea of a taylor expansion, we can find a "robust" formulation of these approximated tensor networks and significnatly reduce the cost of electronic structure theory methods.
-      </p>
-    </div> -->
-    <!-- <div style="width: 100%; transform: translate(0%, 0%);text-align: right;">
-      
-    </div> -->
-    <!-- <div class="biobox" style="width: 70%; transform: translate(20%, 0%);text-align: left;">
-      <p style="font-size: 70%;">
-        Introduction of the canonical polyadic (CP) decomposition to approximate tensor networks in electronic structure methods can a significant effect on the accuracy of the methods. Using the mathematical idea of a taylor expansion, we can find a "robust" formulation of these approximated tensor networks and significnatly reduce the cost of electronic structure theory methods.
-      </p>
-    </div> -->
   
   <div id="includedContent">
 
   </div>
 </div>
+
+<div id=recent style="position: relative; top:-50px;display: block; margin: 30px">
+  <h1 class=centered style="position:relative; top: 0px; color: #000000; -webkit-text-stroke: 1px rgb(0, 0, 0); font-size: 3vw; width: 70%;"> Outside of Science</h1>
+    <div style="width: 100%; transform: translate(0%, 0%);text-align: center;">
+        <img src="./images/8625369.webp" alt="Pole vaulting" style="width: 40%; overflow:hidden; transform: translate(0%, 0%);" >
+        <img src="./images/PXL_20240707_102655072.jpg" alt="Mont Saint Michel" style="width: 45%; overflow:hidden; transform: translate(0%, 0%);" >
+    </div>
+    <div style="width: 100%; transform: translate(0%, 0%);text-align: center;">
+      <img src="./images/PXL_20230122_174658757.jpg" alt="Baking" style="width: 20%; overflow:hidden; transform: translate(0%, 0%);" >
+      <img src="./images/PXL_20240623_105052225.jpg" alt="biking" style="width: 45%; overflow:hidden; transform: translate(0%, 0%);" >
+  </div>
+  <div id="includedContent">
+
+  </div>
+</div>
+
+<!-- <div>
+  <div style="height: 225px; width: 375px; top:0px; position:relative" class='viewer_3Dmoljs' data-href='4138_1_2-ccsd-ri-obs-cc-pVDZ-F12-dfbs-aug-cc-pVDZ-RI-rank-1.0-bs-5.0-hbs-200-tcutcp-1e-3-nodes-1-build-cp-molden_CP.molden' data-style='stick' data-ui='false'></div>
+</div> -->
 
 <div class=footer >
   <div class="link_box">

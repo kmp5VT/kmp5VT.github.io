@@ -43,9 +43,8 @@ header {
   padding: 10px;
   border-top: 30px;
   width: 100%;
-  height: 3%;
-  height: 90px;
-  transform: translate(0%, 50%);
+  height: 40%;
+  transform: translate(0%, 0%);
   overflow: visible;
   z-index: 1000;
   background-color: #22223b49;
@@ -109,7 +108,7 @@ a:hover{
 .footer {
   background-color: #22223b49;
   text-align: center;
-  position: absolute;
+  position: relative;
   transform: translate(30%, -50%);
   width: 50%;
   height: 40px;
