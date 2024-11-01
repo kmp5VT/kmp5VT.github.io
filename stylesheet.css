@@ -107,10 +107,11 @@ a:hover{
 
 .footer {
   background-color: #22223b49;
+  float:inline-start;
   text-align: center;
   position: relative;
-  transform: translate(30%, -50%);
-  width: 50%;
+  transform: translate(10%, -50%);
+  width: 70%;
   height: 40px;
   margin-right: 50px;
   margin-left: 50px;
