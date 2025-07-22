@@ -44,11 +44,11 @@
     </div>
 <!-- Links to my socials-->
 <header>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
 <script src="https://3Dmol.org/build/3Dmol-min.js"></script>
 <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>
 
- <div id="container-01" class="mol-container"></div>
+ <!-- <div id="container-01" class="mol-container"></div>
  <style>
 .mol-container {
   width: 60%;
@@ -65,6 +65,7 @@
               viewer.addAsOneMolecule(data, "pdb");
               viewer.zoomTo();
               viewer.render();
+              viewer.setStyle({stick:{}});
           });
   // let pdbUri = 'mol.pdb';
   // jQuery.ajax( pdbUri, { 
@@ -81,7 +82,8 @@
   //   },
   // }
   // );
-</script>
+</script> -->
+<div style='height: 400px; width: 60%; left: 20%; position: relative;' class='viewer_3Dmoljs' data-href='mol.sdf' data-type='sdf' data-backgroundcolor='0xffffff' data-style='stick'></div>
 <!-- <div style="height: 400px; width: 400px; position: relative;" class='viewer_3Dmoljs' data-href='mol/mol.pdb' data-type= 'pdb' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div> -->
 
 </header>
