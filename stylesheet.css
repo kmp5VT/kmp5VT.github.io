@@ -9,7 +9,7 @@ html{
 }
 
 body{
-  background-color: #4848489a;
+  background-color: #ddeafffc;
   margin-right: 50px;
   margin-left: 50px;
   padding-left: 50px;
@@ -32,12 +32,12 @@ body {
 @font-face {font-family: JetBrainsMonoNL-Bold; src: url('./fonts/JB_webfonts/JetBrainsMono-Medium.woff2')}
 @font-face {font-family: JetBrainsMonoNL-ExtraBold; src:  url('./fonts/JB_webfonts/JetBrainsMono-ExtraBold.woff2')}
 
-* {
+/* * {
   box-sizing: border-box;
-  border-radius: 25px;
+  border-radius:25px;
   overflow : hidden;
   
-}
+} */
 
 header {
   padding: 10px;
@@ -47,6 +47,9 @@ header {
   transform: translate(0%, 0%);
   overflow: visible;
   z-index: 1000;
+  box-sizing: border-box;
+  border-radius: 25px;
+  overflow: hidden;
   background-color: #22223b49;
   border-bottom: 3px solid #22223B;
   background-origin: content-box;
@@ -65,7 +68,7 @@ header {
 
 a{
     z-index: auto;
-    color:  #ffffff;
+    color:  #070707;
     font-family: JetBrainsMonoNL-Bold;
     font-size: 1vw;
 }
@@ -111,6 +114,9 @@ a:hover{
   text-align: center;
   position: relative;
   transform: translate(10%, -50%);
+  box-sizing: border-box;
+  border-radius:25px;
+  overflow : hidden;
   width: 70%;
   height: 40px;
   margin-right: 50px;
